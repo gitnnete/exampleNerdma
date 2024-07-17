@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nerdma</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div>
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/nerdma-logo.png"
+                alt="Bootstrap"
+                width="120"
+                height="44"
+              />
+            </a>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-font mx-3 nav-link active" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-font mx-2 nav-link" href="#">What We Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-font mx-2 nav-link" href="#">Join The Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-font mx-2 nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Training
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Training</a></li>
+                  <li><a class="dropdown-item" href="#">Data Cleaning</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Cyber Security Training</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-font mx-2 nav-link" href="#">ESG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-font mx-2 nav-link" href="#">Hackathons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-font mx-2 nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar-->
+
+    <!--Hero Section-->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-md-1 hero-text">
+            <h1
+              class="display-4 hero-heading fs-md-3 fs-lg-4 text-md-start mb-4"
+            >
+              Engineering innovative software solutions
+            </h1>
+            <p class="lead fs-5 mb-4">
+              <span class="border-danger-span"
+                >... that enable sustainable</span
+              >
+              growth for our clients and stakeholders
+            </p>
+            <div class="hero-buttons">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button class="btn btn-danger btn-lg me-md-2 mb-2 mb-md-0">
+                  What We Offer
+                </button>
+                <button class="btn btn-outline-secondary btn-md">
+                  About Us
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2 hero-image">
+            <img src="img/landing-vr.jpg" alt="Placeholder Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero Section-->
+
+    <!--We Engineer-->
+    <section class="warning-section">
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col-md-8 order-2 order-md-1">
+            <h1
+              class="display-4 warning-heading fs-md-3 fs-lg-4 text-md-start mb-5"
+            >
+              We engineer bespoke software solutions, provide data analytics,
+              automation and cybersecurity.
+            </h1>
+            <p class="lead fs-5 mb-4">
+              <span class="border-danger-span">Across all economic</span>
+              sectors, we engage in strategic partnerships that empower our
+              clients' digital strategies and unlock limitless value.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--We Engineer-->
+
+    <!--What We Offer-->
+    <section>
+      <div class="container my-5 w-75">
+        <h1 class="warning-heading fs-md-3 fs-lg-4 text-center mb-3">
+          What We Offer
+        </h1>
+        <p class="lead text-center">
+          Serving from multinational and listed corporates to small entities
+          alike, Nerdma has a highly skilled and dynamic team that, individually
+          and collectively, has experience across a range of industries.
+        </p>
+        <div class="hero-buttons">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center my-4">
+            <button class="btn btn-danger btn-md me-md-2 mb-2 mb-md-0">
+              What We Offer
+            </button>
+            <button class="btn btn-outline-secondary btn-md">About Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--What We Offer-->
+
+    <!--We Value Section-->
+    <section>
+      <div class="container my-5">
+        <h1 class="we-value-heading text-dark-subtle fs-md-5 text-start mb-5">
+          We value our clients and stakeholders
+        </h1>
+        <p class="lead fs-5 mb-4">
+          <span class="we-value-border-danger">Our clients are</span> the most
+          important part of our organisation. We invest time and resources in
+          understanding their needs and expectations by viewing situations from
+          different vantage points. We pride ourselves in our ability to
+          transcend limits, to <span class="fw-bold">think beyond!</span>
+        </p>
+      </div>
+    </section>
+    <!--We Value Section-->
+
+    <!--Partner Section-->
+    <section>
+      <div class="container my-5">
+        <div class="row my-5">
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-1.png" alt="" width="130" height="54" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-2.png" alt="" width="130" height="54" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-3.png" alt="" width="130" height="54" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-4.png" alt="" width="130" height="54" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-5.png" alt="" width="130" height="54" />
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-5">
+            <img src="img/partner-6.png" alt="" width="130" height="54" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Partner Section-->
+
+    <!--Join Team Section-->
+    <section class="my-5">
+      <div
+        class="container w-75 my-5 d-flex justify-content-center align-items-center bg-secondary-subtle join-team"
+      >
+        <div class="inner-container text-center">
+          <h3 class="text-center">Would you like to be part of the journey</h3>
+          <button class="btn btn-danger btn-lg mt-4">Join the team</button>
+        </div>
+      </div>
+    </section>
+    <!--Join Team Section-->
+
+    <!--Footer-->
+    <section>
+      <div class="container border-bottom border-danger">
+        <div class="row">
+          <div class="col-md-3">
+            <h4 class="footer-heading">About</h4>
+            <ul class="footer-link">
+              <li class="my-1 footer-link-font">ABOUT US</li>
+              <li class="my-1 footer-link-font">
+                ENVIRONMENT SOCIAL AND GOVERNANCE (ESG)
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-link">
+              <li class="my-1 footer-link-font">RESOURCING</li>
+              <li class="my-1 footer-link-font">CUSTOM SOFTWARE DEVELOPMENT</li>
+              <li class="my-1 footer-link-font">ESG SCORECARD</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-heading">Training</h4>
+            <ul class="footer-link">
+              <li class="my-1 footer-link-font">ABOUT US</li>
+              <li class="my-1 footer-link-font">
+                ENVIRONMENT SOCIAL AND GOVERNANCE (ESG)
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="footer-heading">Get hold of us</h4>
+            <ul class="footer-link">
+              <li class="my-1 footer-link-font">ABOUT US</li>
+              <li class="my-1 footer-link-font">
+                ENVIRONMENT SOCIAL AND GOVERNANCE (ESG)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-5">bottom</div>
+    </section>
+    <!--Footer-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
